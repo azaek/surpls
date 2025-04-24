@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-screen min-h-svh flex flex-col items-center bg-gradient-to-b from-black to-[#161616]">
-      <main className="w-full max-w-4xl flex flex-col items-center border-x border-white/10 flex-1">
+      <main className="w-full max-w-4xl flex flex-col items-center md:border-x border-white/10 flex-1">
         {/* Nav */}
         <nav className="w-full flex items-stretch justify-between h-[72px] border-b border-white/10">
           <div className="flex items-center px-6 min-w-[165px]">
